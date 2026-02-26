@@ -31,6 +31,11 @@ public class InsertionSortSteps {
                                 break;
                         }
                 }
+                if(arr[0]>key){
+                        arr[0]=key;
+                        System.out.println();
+                        printArr(arr,n);
+                }
         }
     
 }
